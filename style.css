@@ -1,0 +1,43 @@
+.profile_pic {
+  width: 22%;
+  height: 60%;
+  display: inline;
+  float: left;
+  margin-right: 30px;
+}
+.about_me {
+  display: inline;
+}
+.buttons {
+  text-align: center;
+  border: solid, black;
+}
+.content {
+  background-color: pink;
+  margin: 0 auto;
+  width: 80%;
+  height: 40rem;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  opacity: 0;
+  visibility: hidden;
+}
+.content:target {
+  opacity: 1;
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+footer {
+  text-align: center;
+  background: url("rodape.jpg");
+  padding: 40px 0;
+  color: white;
+}
+#cor {
+  background-color: #a67ca3;
+  font-weight: bold;
+  color: black;
+}
